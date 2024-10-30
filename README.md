@@ -1,2 +1,2 @@
 # goebel-seq
-Codes and results of computations on $(k, l)$-Göbel sequences
+Codes and computational results regarding $(k, l)$-Göbel sequences
