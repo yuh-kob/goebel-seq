@@ -1,6 +1,6 @@
 # goebel-seq: Codes and computational results regarding $(k, l)$-Göbel sequences
 
-Codes and data in this repository accompany the manuscript "A note on non-integrality of the $(k,l)$-Göbel sequences" ([arXiv](https://arxiv.org/)).
+Codes and data in this repository accompany the manuscript "A note on non-integrality of the $(k,l)$-Göbel sequences" \[[arXiv:2410.23240](https://arxiv.org/abs/2410.23240)\].
 
 ## Computational Results
 Data files were created by merging the results from the computations based on the actual codes and removing overheads. These files, placed on the uppermost directory of the repository, are intended for circulation among the research community.
