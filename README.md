@@ -12,4 +12,7 @@ Data files were created by merging the results from the computations based on th
 
 ## Codes
 The actual codes have been written in Python.
-The codes in files on the `codes_actual` directory were used to obtain the computational results in the actual run. Files are highly redundant and sometimes not very readable, but are included for archival purposes.
+The codes in files on the `codes_actual` directory were used to obtain the computational results in the actual run. These codes were run by Python (ver. 3.8.18 and 3.9.18) with SymPy (ver. 1.12). Files are highly redundant and sometimes not very readable, but are included for archival purposes.
+
+### A side note on the actual algorithms used in `pow()` function
+The source code in C for the implementation of `pow()` function can be viewed at [https://github.com/python/cpython/blob/main/Objects/longobject.c](https://github.com/python/cpython/blob/main/Objects/longobject.c). Both the modular inverse and modular exponentiation are implemented in the `static PyObject *long_pow(PyObject *v, PyObject *w, PyObject *x)` function (line 4888-), which cites [Chap. 14 of "Handbook of Applied Cryptography"](https://cacr.uwaterloo.ca/hac/about/chap14.pdf) by A. Menezes, P. van Oorschot, and S. Vanstone, CRC Press, 1997.
